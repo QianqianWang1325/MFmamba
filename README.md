@@ -1,5 +1,21 @@
 # MFmamba
-MFmamba
+This repository contains the **official implementation** of the paper   *"MFmamba: A Multi-function Network for Panchromatic Image Resolution Restoration Based on State-Space Model"*.
+# 🌟 MFmamba: A Multi-function Network for Panchromatic Image Resolution Restoration Based on State-Space Model
+
+---
+
+## 📸 Overview
+
+We designed a novel multi-function model **MFmamba** to realize the tasks of SR, spectral recovery, joint SR and spectral recovery through three different inputs.    
+
+💡 **MFmamba** utilizes UNet++ as the backbone, and a **Mamba Upsample Block (MUB)** is combined with UNet++. Secondly, a **Dual Pool Attention (DPA)** is designed to replace the skip connection in UNet++. Finally, a **Multi-scale Hybrid Cross Block (MHCB)** is proposed for initial feature extraction.
+
+<p align="center">
+  <img src="asset/net.png" width="85%" alt="Framework Overview"/>
+</p>
+
+---
+
 
 1.Data preparation
 Taking the Potsdam dataset as an example Potsdam  

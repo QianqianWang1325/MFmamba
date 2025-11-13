@@ -14,11 +14,6 @@ We designed a novel multi-function model **MFmamba** to realize the tasks of SR,
   <img src="framework.png" width="85%" alt="Framework Overview"/>
 </p>
 
-
-## 📸 Result
-<p align="center">
-  <img src="result1.png" width="85%" alt="Framework Overview"/>
-</p>
 ---
 
 
@@ -68,7 +63,31 @@ python test.py --task srx2 --best_pkl_path ./log/pkl/best/best.pkl
 
 For Super-Resolution and Colorization task：
 ```bash
+
 python test.py --task color --best_pkl_path ./log/pkl/best/best.pkl
 ```
 
 The Pre-Train model can get here. [pre-train model](https://pan.baidu.com/s/1ghTCKOnyHOki6U0I0mX1WA?pwd=12SR)  Extract code: 12SR  
+
+
+
+## 📸 Overview
+
+We designed a novel multi-function model **MFmamba** to realize the tasks of SR, spectral recovery, joint SR and spectral recovery through three different inputs.    
+
+## 📸 Result of Joint SR and Spectral Recovery
+<p align="center">
+  <img src="result.png" width="85%" alt="Result Overview"/>
+</p>
+
+## 📸 Result of Super-Resolution
+
+<p align="center">
+  <img src="SR.png" width="85%" alt="SR Overview"/>
+</p>
+
+## 📸 Result of Spectral Recovery
+<p align="center">
+  <img src="Color.png" width="85%" alt="Color Overview"/>
+</p>
+---

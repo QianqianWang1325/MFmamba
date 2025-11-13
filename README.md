@@ -1,5 +1,5 @@
-# Umamba
-Umamba
+# MFmamba
+MFmamba
 
 1.Data preparation
 Taking the Potsdam dataset as an example Potsdam  

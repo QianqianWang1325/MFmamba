@@ -1,3 +1,5 @@
+# 🌟 This paper was accepted in AAAI(2026)!
+
 # MFmamba
 This repository contains the **official implementation** of the paper   *"MFmamba: A Multi-function Network for Panchromatic Image Resolution Restoration Based on State-Space Model"*.
 # 🌟 MFmamba: A Multi-function Network for Panchromatic Image Resolution Restoration Based on State-Space Model

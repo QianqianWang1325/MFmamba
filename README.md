@@ -18,13 +18,45 @@ We designed a novel multi-function model **MFmamba** to realize the tasks of SR,
 
 ---
 
+## 📸 Environment and Dependencies
+First, download the code of the MambaIR paper to your local machine. The link is: [MambaIR](https://github.com/csguoh/MambaIR).  
+Second
+```bash
+cd ./MambaIR
+conda env create -f environment.yaml
+conda activate wangqianqian_23_mambair
+```
+
+Third
+```bash
+conda install packaging
+```
+
+Fourth
+```bash
+pip install causal_conv1d==1.0.0
+pip install mamba_ssm==1.0.1
+```
+
+Install other packages as needed, such as:
+```bash
+pip install opencv-python
+pip install pytorch-msssim
+pip install tensorboard
+pip install basicsr
+pip install timm
+pip install matplotlib
+pip install openpyxl
+```
+
+
 
 ## 📸 Data preparation
 Taking the Potsdam dataset as an example Potsdam  
     >>--train    
     >>--val  
     >>--test   
-
+The dataset used in the experiment will be organized into corresponding download links for download later.
 
 ## 📸 train
 2.Train
